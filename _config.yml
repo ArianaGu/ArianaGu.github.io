@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Chaoying Gu"
   avatar           : "profile.png"
-  bio              : "Senior student at Peking University, majoring in Electronic and Information Engineering"
+  bio              : "Senior student @ Peking University"
   location         : "Beijing, China"
   employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
  # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : 
+  email            :  vanessagu@pku.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
