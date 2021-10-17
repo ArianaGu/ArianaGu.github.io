@@ -19,6 +19,8 @@ Hello! I am a senior student at Peking University, majoring in Electronic and In
 - Independently implemented superposition algorithm for SPAD array without global gates, and interpolation method for irregular sampling grid;
 - Joined a collaborative project in developing fast reconstruction for non-planar relay surface , responsible for algorithm and coding.
 
+![](/images/r3.png)
+
 
 
 ## Non-Line-of-Sight (NLOS) Imaging System and Algorithm 
@@ -28,6 +30,8 @@ Hello! I am a senior student at Peking University, majoring in Electronic and In
 - Mastered the theory of phasor-field virtual wave optics and Rayleigh-Sommerfeld Diffraction (RSD);
 - Proposed a criterion to explain the selection of virtual illumination function and corresponding wavelength in phasor-field method;
 - [[Paper under review](http://academicpages.github.io/files/fusing_paper.pdf)] Developed a fusing algorithm to improve the phasor-field method when the measurement SNR is extremely low.
+
+![](/images/r2.png)
 
 
 
@@ -39,7 +43,7 @@ Hello! I am a senior student at Peking University, majoring in Electronic and In
 - Analyzed the method of designing Reconfigurable Holographic Surface (RHS) by constructing varactor diodes in radiation cells to modulate the amplitude;
 - Modeled a communication system with several base stations equipped with RHS, and applied fractional and convex optimization algorithm to suppress undesired side-lobes.
 
+![](/images/r1.png)
 
 
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
