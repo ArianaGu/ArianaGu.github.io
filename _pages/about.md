@@ -29,7 +29,7 @@ Hello! I am a senior student at Peking University, majoring in Electronic and In
 
 - Mastered the theory of phasor-field virtual wave optics and Rayleigh-Sommerfeld Diffraction (RSD);
 - Proposed a criterion to explain the selection of virtual illumination function and corresponding wavelength in phasor-field method;
-- [[Paper under review](https://arianagu.github.io/files/fusing.pdf)] Developed a fusing algorithm to improve the phasor-field method when the measurement SNR is extremely low.
+- Developed a fusing algorithm to improve the phasor-field method which can improve the reconstruction SNR by around 20%.
 
 ![](/images/r2.png)
 
