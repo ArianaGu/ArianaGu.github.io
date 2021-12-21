@@ -17,4 +17,4 @@ author_profile: true
 
 [This document](https://arianagu.github.io/files/weekly_summary.pdf) summarizes all my successful and unsuccessful (mostly) attempts during my remote internship at the computational optics group of University of Wisconsin-Madison.
 
-<img src="/images/w1.png" style="zoom:70" />
+<img src="/images/w1.png" style="zoom:50" />
