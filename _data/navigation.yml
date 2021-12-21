@@ -4,5 +4,5 @@ main:
   - title: "CV"
     url: /files/resume.pdf
 	
-  - title: "Page not in menu"
-  	url: /non-menu-page/
+  - title: "Publications"
+  	url: /publications/
