@@ -4,8 +4,5 @@ main:
   - title: "CV"
     url: /files/resume.pdf
 
-  - title: "Writing Sample"
-  	url: /sample/
-
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
