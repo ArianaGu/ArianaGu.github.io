@@ -3,9 +3,6 @@ layout: archive
 title: "Writing Sample"
 permalink: /sample/
 author_profile: true
-redirect_from:
-  - /sample/
-  - /sample.html
 ---
 
 {% include base_path %}
