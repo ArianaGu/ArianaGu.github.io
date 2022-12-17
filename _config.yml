@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Chaoying Gu"
 title_separator          : "-"
 name                     : &name "Chaoying Gu"
-description              : &description "First-year PhD at UC Berkeley"
+description              : &description "First-year graduate at UC Berkeley"
 url                      : https://ArianaGu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ArianaGu/academicpages.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Chaoying Gu"
   avatar           : "profile.jpg"
-  bio              : "First year PhD @ UC Berkeley"
+  bio              : "First year grad @ UC Berkeley"
   location         : "Berkeley, CA"
   employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -192,24 +192,24 @@ collections:
 # Defaults
 defaults:
   # _posts
-#  - scope:
-#      path: ""
-#      type: posts
-#    values:
-#      layout: single
-#      author_profile: true
-#      read_time: true
-#      comments: true
-#      share: true
-#      related: true
-#  # _pages
-#  - scope:
-#      path: ""
-#      type: pages
-#    values:
-#      layout: single
-#      author_profile: true
-#  # _teaching
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
 #  - scope:
 #      path: ""
 #      type: teaching
