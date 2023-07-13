@@ -10,14 +10,15 @@ redirect_from:
 
 Hello! I am a new graduate student at UC Berkeley, working with Prof. [Laura Waller](http://www.laurawaller.com/). My research interest lies in computational imaging and optics and I am explorinig diffuser camera & microscope recently. I previously worked on None-line-of-sight imaging with Prof. [Andreas Velten](https://biostat.wisc.edu/~compoptics/). I play with signal processing in the Fourier domain a lot, and I always love combining physical hardware and computational methods to create something.
 
-# Research experience
+# Projects
 
-## Fast Non-Line-of-Sight (NLOS) Imaging on non-planar geometry
+## Fast Non-line-of-sight Imaging with Non-planar Relay Surfaces [[code]](https://github.com/ArianaGu/3D-RSD)
 
-*Remote Internship, Supervised by Prof. Andreas Velten, Department of Biostatistics and Medical Informatics, University of Wisconsin – Madison*         (2021/6-present)
+**Chaoying Gu**, Talha Sultan, Khadijeh Masumnia-Bisheh, Laura Waller, and Andreas Velten
 
-- Independently implemented superposition algorithm for SPAD array without global gates, and interpolation method for irregular sampling grid;
-- Joined a collaborative project in developing fast reconstruction for non-planar relay surface , responsible for algorithm and coding.
+**Abstract**: Non-line-of-sight imaging methods reconstruct images from light captured off a relay surface. In most prior work this relay surface is a diffuse plane. It has been shown that even small deviations from a planar relay wall geometry quickly degrade reconstruction quality. Although existing methods can account for relay surface geometry in a straightforward way, they typically have high computational complexity and take orders of magnitude longer time to compute than state-of-the-art planar methods. In this work, we propose a fast algorithm that can perform non-line-of-sight reconstruction on arbitrary non-planar relay surfaces. Our algorithm has
+the same computational and memory complexity as the fastest existing algorithms, yet it achieves comparable reconstruction quality to
+the widely-used slower algorithms.
 
 ![](/images/r3.png)
 
