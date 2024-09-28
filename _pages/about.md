@@ -8,25 +8,34 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a new graduate student at UC Berkeley, working with Prof. [Laura Waller](http://www.laurawaller.com/). My research interest lies in computational imaging and optics and I am explorinig diffuser camera & microscope recently. I previously worked on None-line-of-sight imaging with Prof. [Andreas Velten](https://biostat.wisc.edu/~compoptics/). I play with signal processing in the Fourier domain a lot, and I always love combining physical hardware and computational methods to create something.
+Hello! I am a graduate student at UC Berkeley, working with Prof. [Laura Waller](http://www.laurawaller.com/). I started my graduate studies in 2022 after graduating with a B.S. in Electrical Engineering from Peking University, China. My research focuses on developing and applying advanced computational imaging techniques, with expertise in signal processing, optimization algorithms, and their applications in image reconstruction and aberration characterization.
+
+Previously, I worked on None-line-of-sight imaging with Prof. [Andreas Velten](https://biostat.wisc.edu/~compoptics/). I play with signal processing in the Fourier domain a lot, and I always love combining physical hardware and computational methods to create something.
 
 # Projects
 
 ## Towards Full Field-of-View Fourier Ptychography for Extreme Ultraviolet Microscope
 **Chaoying Gu**, Antoine Islegen-Wojdyla, Markus Benk, Kenneth A. Goldberg, Laura Waller
 
-*IEEE CISA* 2024 (coming soon)
+*IEEE CISA* 2024 [[paper]](https://ieeexplore.ieee.org/abstract/document/10576262)
 
-**Abstract**: We evaluate various Fourier ptychographic microscopy (FPM) reconstruction algorithms using both simulated and experimental data acquired from an Extreme Ultraviolet (EUV, 13.5 nm wavelength) microscope. We specifically focus on the algorithms' ability to robustly address field-dependent aberrations, which enables increased spatial resolution and quantitative phase imaging across an expanded field of view. We systematically compare the algorithms' performance under aberrations for a single zoneplate imaging system, utilizing Fourier Ring Correlation (FRC) as a systematic metric for assessing reconstruction quality. Furthermore, we explore the impact of systematic errors on the reconstruction of experimental data,  aiming to increase the effective field of view by 25-fold, from the nominal 5x5~um$^2$ diffraction-limited area. 
+**Highlight**: 
+- Extensively evaluated the reconstruction quality of existing algorithms under EUV microscope aberration. 
+-	Achieved a 36-fold increase in the usable field-of-view from the nominal 5×5 μm² diffraction-limited area.
+
+![](/images/teaser_fpm.png)
+
 
 ## High-throughput Diffractive Multiplexing Microscopy with Sensor Array
 Kevin C Zhou, **Chaoying Gu**, Grace Jiang, Nicholas Antipa, Roarke W Horstmeyer, Laura Waller
 
-*Photonics West* 2024 [[abstract]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12857/PC128570A/High-throughput-computational-microscopy-with-diffractive-multiplexing-across-a-gigapixel/10.1117/12.3000876.full)
+*Photonics West* 2024 [[abstract & pre]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12857/PC128570A/High-throughput-computational-microscopy-with-diffractive-multiplexing-across-a-gigapixel/10.1117/12.3000876.full)
 
-**Abstract**: We present a high-resolution, wide-field of view (FOV) computational microscope that employs an array of image sensors with gaps between them and a diffractive optical element (DOE) in the Fourier plane. The sensor array consists of a 6 x 8 array of 13-megapixel sensors (total ~0.6 gigapixels), spanning a 5 cm by 6.6 cm region with a ~22% fill factor. To fill in the inter-sensor gaps without scanning, we introduce a DOE at the pupil that generates a distributed PSF, allowing us to multiplex information from the missing ~78% of the total area into the sensing regions. Our large-scale reconstruction algorithm demixes the superimposed information, resulting in a >4x expanded FOV. Our approach can enable multi-gigapixel imaging in a single snapshot.
+**Highlight**: 
+- Developed a computational microscope using a sensor array and a diffractive optical element (DOE) to achieve high-throughput imaging, covering a 5 cm x 6.6 cm region with ~0.6 gigapixels.
+- I mainly worked on developing the patch-based memory-efficient reconstruction algorithm that involves deconvolving a diffraction pattern to fill in the sensor gaps.
 
-I mainly worked on developing the patch-based memory-efficient reconstruction algorithm for demultiplexing.
+![](/images/teaser_mcam.png)
 
 ## Fast Non-line-of-sight Imaging with Non-planar Relay Surfaces
 
@@ -34,9 +43,10 @@ I mainly worked on developing the patch-based memory-efficient reconstruction al
 
 *ICCP* 2023  [[paper]](https://ieeexplore.ieee.org/abstract/document/10233262) [[code]](https://github.com/ArianaGu/3D-RSD)
 
-**Abstract**: Non-line-of-sight imaging methods reconstruct images from light captured off a relay surface. In most prior work this relay surface is a diffuse plane. It has been shown that even small deviations from a planar relay wall geometry quickly degrade reconstruction quality. Although existing methods can account for relay surface geometry in a straightforward way, they typically have high computational complexity and take orders of magnitude longer time to compute than state-of-the-art planar methods. In this work, we propose a fast algorithm that can perform non-line-of-sight reconstruction on arbitrary non-planar relay surfaces. Our algorithm has
-the same computational and memory complexity as the fastest existing algorithms, yet it achieves comparable reconstruction quality to
-the widely-used slower algorithms.
+**Highlight**:
+- Proposed a novel computational method that effectively performs 3D diffraction propagation for arbitrary non-planar surfaces.
+- Achieved orders of magnitude better complexity compared to state-of-the-art algorithms without quality degradation, validated on experimental data.
+ 
 
 ![](/images/r3.png)
 
