@@ -39,3 +39,117 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* ==========================================================================
+   Custom About Page Styles
+   ========================================================================== */
+
+.intro-text {
+  font-size: 1.05em;
+  line-height: 1.75;
+  color: #3d4449;
+}
+
+.section-heading {
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2em;
+  margin-bottom: 1.2em;
+  padding-bottom: 0.4em;
+  border-bottom: 2.5px solid $info-color;
+  display: inline-block;
+}
+
+.project-card {
+  background: #fafbfc;
+  border: 1px solid #e8ecf0;
+  border-radius: 10px;
+  padding: 1.5em 1.6em 1.4em;
+  margin-bottom: 2em;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    border-color: #d0d7de;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .project-authors {
+    color: #57606a;
+    font-size: 0.92em;
+    margin-bottom: 0.6em;
+  }
+
+  .project-venue {
+    font-size: 0.88em;
+    color: #656d76;
+    margin-bottom: 0.8em;
+    line-height: 1.7;
+  }
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+  margin-bottom: 1em;
+
+  a {
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    font-size: 0.82em;
+    font-weight: 500;
+    color: $info-color;
+    border: 1px solid $info-color;
+    border-radius: 20px;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $info-color;
+      color: #fff;
+    }
+  }
+}
+
+.project-highlight {
+  background: #f0f7fb;
+  border-left: 3px solid $info-color;
+  border-radius: 0 6px 6px 0;
+  padding: 0.75em 1em;
+  margin: 0.8em 0 1em;
+  font-size: 0.92em;
+  line-height: 1.65;
+
+  ul {
+    margin: 0;
+    padding-left: 1.2em;
+  }
+
+  li {
+    margin-bottom: 0.3em;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.project-media {
+  margin-top: 1em;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img, video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+}
