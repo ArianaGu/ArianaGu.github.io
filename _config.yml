@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Chaoying Gu"
   avatar           : "profile.jpg"
-  bio              : "Third year grad @ UC Berkeley"
+  bio              : "Fourth year grad @ UC Berkeley"
   location         : "Berkeley, CA"
   employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
- # googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=WJH_TjIAAAAJ&hl=en"
   email            :  chaoying_gu@berkeley.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/chaoying-gu-1377711b2/"
  # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
