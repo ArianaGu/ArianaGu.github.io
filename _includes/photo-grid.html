@@ -1,0 +1,31 @@
+{% include base_path %}
+{% if include.id %}
+  {% assign gallery = page.[include.id] %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+{% comment %}
+  Justified photo grid. Each item in the page's `gallery` list needs:
+    file:  filename under /images/posts/ (thumbnail is read from /images/posts/thumbs/)
+    ratio: width / height of the photo
+    alt:   short description (used for alt text)
+    caption: optional, shown under the photo in the lightbox
+  Clicking a photo opens the full-size image in the theme's Magnific Popup lightbox
+  (class "image-popup"), with arrows to move between photos.
+{% endcomment %}
+<div class="photo-grid">
+{% for img in gallery %}
+  {% assign ratio = img.ratio | default: 1.5 %}
+  <a class="photo-grid__item image-popup"
+     href="{{ base_path }}/images/posts/{{ img.file }}"
+     {% if img.caption %}title="{{ img.caption | escape }}"{% endif %}
+     style="flex-grow: {{ ratio }}; flex-basis: calc({{ ratio }} * var(--photo-row-height));">
+    <img src="{{ base_path }}/images/posts/thumbs/{{ img.file }}"
+         alt="{{ img.alt | default: '' | escape }}"
+         loading="lazy"
+         style="aspect-ratio: {{ ratio }};">
+    <span class="photo-grid__zoom" aria-hidden="true"><i class="fas fa-expand"></i></span>
+  </a>
+{% endfor %}
+  <span class="photo-grid__spacer" aria-hidden="true"></span>
+</div>

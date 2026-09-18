@@ -1,0 +1,28 @@
+{% include base_path %}
+{% comment %}
+  Card for one post on the Posts page. Cover image: `cover: 0203.jpg` in the post's
+  front matter, otherwise the first photo of its `gallery`, otherwise no image.
+{% endcomment %}
+{% assign cover = post.cover %}
+{% if cover == nil and post.gallery %}
+  {% assign first_photo = post.gallery | first %}
+  {% assign cover = first_photo.file %}
+{% endif %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+<a class="post-card" href="{{ base_path }}{{ post.url }}">
+  {% if cover %}
+  <div class="post-card__cover">
+    <img src="{{ base_path }}/images/posts/thumbs/{{ cover }}" alt="" loading="lazy">
+    {% if post.gallery %}
+    <span class="post-card__count"><i class="far fa-images" aria-hidden="true"></i>{{ post.gallery.size }}</span>
+    {% endif %}
+  </div>
+  {% endif %}
+  <div class="post-card__body">
+    <h2 class="post-card__title">{{ title }}</h2>
+    <p class="post-card__meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+    {% if post.excerpt %}
+    <p class="post-card__excerpt">{{ post.excerpt | strip_html | strip | truncate: 140 }}</p>
+    {% endif %}
+  </div>
+</a>
