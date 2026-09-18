@@ -48,6 +48,7 @@
   font-size: 1.05em;
   line-height: 1.75;
   color: #3d4449;
+  max-width: 44em; /* keep prose at a readable measure on wide screens */
 }
 
 .section-heading {

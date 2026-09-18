@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Chaoying Gu"
 title_separator          : "-"
 name                     : &name "Chaoying Gu"
-description              : &description "Third-year graduate at UC Berkeley"
+description              : &description "Fifth-year PhD candidate at UC Berkeley, working on computational imaging"
 url                      : https://ArianaGu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ArianaGu/academicpages.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Chaoying Gu"
   avatar           : "profile.jpg"
-  bio              : "Fourth year grad @ UC Berkeley"
+  bio              : "PhD candidate, UC Berkeley"
   location         : "Berkeley, CA"
   employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

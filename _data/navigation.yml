@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "CV"
-    url: /files/CV_202512_chaoying.pdf
+    url: /cv/
 
   - title: "Posts"
     url: /year-archive/
